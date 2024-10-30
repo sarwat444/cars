@@ -1,0 +1,474 @@
+body , html{
+    direction: rtl;
+    font-family: "Cairo", sans-serif !important;
+    background-color: #212121;
+}
+.second-menu .main-menu ul li {
+    margin-right: 25px;
+}
+.second-menu .main-menu ul li
+{
+    margin-left: 0 ;
+}
+.header-three .main-menu ul li a
+{
+    font-family: "Cairo", sans-serif !important;
+    font-size: 15px;
+}
+.right-menu .text strong {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Rajdhani', sans-serif;
+}
+.slider-area
+{
+    direction: ltr;
+}
+.slider-area .row
+{
+    direction: rtl;
+}
+h1, h2, h3, h4, h5, h6 ,
+.btn
+{
+    font-family: "Cairo", sans-serif !important;
+}
+.slider-content h2 {
+    font-size: 50px;
+    letter-spacing: 1.0px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.slider-bg .video-i.popup-video {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Cairo", sans-serif !important;
+}
+.services-box07 .icon img {
+    height: 39px;
+    margin-top: 18px !important;
+}
+.services-box07 .sr-contner .icon {
+    width: 119px;
+    margin-right: 20px;
+    background-color: #e81c2e;
+    padding: 0;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 20px;
+}
+.reserve_box
+{
+    background: linear-gradient(135deg, #dc1c2f, #502022);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.reserve_box h5
+{
+    color: #fff;
+}
+.our_works
+{
+    background: linear-gradient(135deg, #1ab0b2, #1f3839);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.our_works h5
+{
+    color: #fff;
+}
+.services-box07 {
+    padding: 30px;
+}
+
+.certified_box
+{
+    background: linear-gradient(135deg, #4c768d, #252b30);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.certified_box  h5
+{
+    color: #fff;
+}
+.section-title h2 {
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0px !important;
+    position: relative;
+}
+#service-details2
+{
+    background-color: #212121;
+}
+.section-title h2
+{
+    color: #fff;
+}
+.sr-tw-ul li
+{
+    background-image: url(../img/services/1.png);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    padding: 40px;
+}
+.sr-tw-ul li h4 {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.about-content li
+{
+    display: block;
+}
+.about-content li {
+    display: block;
+    border: 0;
+}
+.sd-img
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.about-content li.protect_paint
+{
+    background-image: url(../img/services/2.jpg);
+}
+.about-content li.nano_paint
+{
+    background-image: url(../img/services/3.jpg);
+}
+.sd-img
+{
+    background-image: url(../img/services/1.png);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    padding: 40px;
+    border-radius: 7px;
+    border: 1px solid #e81c2e;
+}
+.sd-img p
+{
+    color: #fff;
+}
+.sd-img h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 68px;
+    margin-top: 0;
+}
+.sd-img h4 {
+    color: #fff;
+    margin-bottom: 37px;
+    text-align: right;
+}
+.sd-img a{
+    margin-top: 48px;
+    font-size: 16px;
+    padding: 15px;
+    padding: 15px 66px;
+}
+.about-content li
+{
+    border: 1px solid transparent;
+}
+.about-content li.active
+{
+    border: 1px solid #e81c2e;
+
+}
+.about-content li:hover
+{
+    border: 1px solid #e81c2e;
+    cursor: pointer;
+}
+
+.header-three .main-menu ul li a
+{
+    color: #fff;
+}
+.header-area
+{
+    background-color: #212121;
+}
+.right-menu .text strong {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Rajdhani', sans-serif;
+}
+.right-menu .text span {
+    display: block;
+    color: #e81c2e;
+}
+
+.header-three .sticky-menu {
+    margin-top: 0;
+    background: #181818;
+}
+.copyright-wrap {
+    background: #201c1c;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-bg
+{
+    background-image: url(img/footer.jpg);
+    background-size: contain;
+    background-color: rgb(107 95 95 / 40%) !important;
+    background-blend-mode: difference;
+}
+.footer-bg .f-widget-title img
+{
+    width: 100%;
+}
+.footer-bg  .logo
+{
+    margin: 0 auto;
+}
+.f-contact
+{
+    text-align: center;
+    display: block;
+}
+.footer-widget .tag-cloud-link, .footer-widget p {
+    color: #fffc;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 23px;
+    font-size: 19px;
+}
+.has-sub li a
+{
+    color: #000 !important;
+    text-align: right;
+}
+.has-sub li a:hover
+{
+    color: #e81c2e; !important;
+}
+.second-about p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: 30px;
+    font-family: "Cairo", sans-serif !important;
+}
+.about-content3 .green li{
+    background-color: #ffff;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(93deg, #e91b25, #590004);
+    color: #fff;
+    border: 0;
+    padding: 11px;
+    margin-bottom: 19px;
+}
+.s-about-content p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+.about-title h5 {
+    color: #e81c2e;
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.faq-btn
+{
+    text-align: right;
+}
+.collapse .card-body
+{
+    color: #000;
+    font-size: 17px;
+    line-height: 33px;
+}
+.bsingle__content h2
+{
+    color: #e81c2e;
+    font-size: 23px;
+}
+.button-group button {
+    font-size: 19px;
+}
+
+.button-group button:hover {
+    color: #e81c2e;
+}
+.my-masonry .button-group button.active
+{
+    color: #e81c2e;
+    border-bottom: 1px solid #e81c2e;
+    font-weight: 500;
+    font-size: 15px;
+}
+.button-group button::before {
+    content: "/";
+    position: relative;
+    right: -12px;
+    left: 0;
+}
+.my-masonry .button-group button.active {
+    color: #e81c2e;
+    border-bottom: 1px solid #e81c2e;
+    font-weight: 500;
+    font-size: 19px;
+}
+.daman table
+{
+    color: #fff;
+}
+.daman table tbody .warranty-td {
+    text-align: center !important;
+}
+.daman table tbody .warranty-td {
+    color: #fff;
+    border-top: 1px solid #fff !important;
+    border-left: 1px solid #fff !important;
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+.daman table
+{
+    margin-bottom: 50px;
+}
+.daman table thead {
+    background-color: #eee;
+    text-align: center;
+    color: #de1e26;
+}
+.top-header h1
+{
+    font-weight: bold;
+    color: #de1e26;
+}
+.contact-bg02 {
+    background: #171717;
+    padding: 41px;
+    text-align: center;
+}
+.contact-field input {
+    width: 100%;
+    border: none;
+    padding-left: 15px;
+    transition: .3s;
+    border-radius: 0;
+    border: 1px solid #777;
+    height: calc(3.0em + .75rem + 2px);
+    padding: 16px;
+    border-radius: 4px;
+}
+.contact-field textarea {
+    border-radius: 4px;
+}
+.f-cta-icon {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0 ;
+}
+.single-cta h5
+{
+    color: #fff;
+}
+
+.testimonial-active .ta-info h6 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: #000;
+    font-weight: 700;
+}
+.testimonial-active .slick-slide
+{
+    min-height: 230px;
+
+}
+
+.avatar-placeholder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff; /* Avatar background color */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px; /* Space between avatar and text */
+}
+
+.single-testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.qt-img img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.custom-file-label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.custom-file-label::after {
+    content: 'اختر صورة';
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #de1e26;
+    float: left;
+}
+
+.custom-file-input {
+    display: none;
+}
+.contact-field label
+{
+text-align: right;
+}
+.contact-field label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    margin-bottom: 20px;
+    cursor: unset;
+}
