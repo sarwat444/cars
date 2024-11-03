@@ -964,15 +964,15 @@ border: 1px solid #000;
   margin-top: -47px;
     }
     .header-three .mean-container a.meanmenu-reveal {
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
     .header-three .mean-container a.meanmenu-reveal span {
   background: no-repeat;
   display: block;
   height: 3px;
   margin-top: 3px;
-  border-top: 3px solid #000;
+  border-top: 3px solid #fff;
 }
 	 .menu .sub-menu {
     border-top: 1px solid rgb(217, 217, 217);
@@ -1435,11 +1435,12 @@ box-shadow: 0 0 0 0;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fff;
 }
     .header-three .mean-container a.meanmenu-reveal {
-  color: #000;
-  border: 1px solid #000;
+        color: #fff;
+        border: 1px solid #fff;
+        float: left;
 }
     /* mobile menu End*/
     .slider-four .slider-bg h5 {
@@ -1574,10 +1575,11 @@ display: inline-block;
     margin-bottom: 50px;
     margin-left: 0;
 }
-    
+
     .btn.ss-btn {
     padding: 20px 15px;
     font-size: 14px;
+        width: 95%;
 }
     .about-content .nav-tabs .nav-link {
     padding: 12px 25px;
@@ -2454,13 +2456,99 @@ margin: 0;
 /* Large Mobile :480px. */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     .services-active2 .slider-nav .slick-list.draggable {
-    width: 500px;
-    float: right;
-}
-    .services-item {
-    width: 470px;
-}
-    .button-group button {
-    margin: 0 2px;
+        width: 500px;
+        float: right;
+    }
 
+    .services-item {
+        width: 470px;
+    }
+
+    .button-group button {
+        margin: 0 2px;
+
+    }
 }
+@media (max-width: 900px) {
+.service-details
+{
+    margin-top: 0;
+    padding-top: 19px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+    .services-box07 {
+        padding: 27px;
+        margin-bottom: 20px;
+    }
+    #service-details2 {
+        background-color: #212121;
+        padding-top: 0;
+    }
+    .section-title h2 {
+        font-size: 28px !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0px !important;
+        position: relative !important;
+        margin-top: 26px !important;
+    }
+    .footer-bg .f-widget-title img {
+        width: 183px !important;
+    }
+    .footer-bg
+    {
+        padding-top: 24px;
+    }
+    .services-box07 .sr-contner .text h5 {
+        font-size: 23px;
+    }
+    .services-box07 .sr-contner .icon
+    {
+        background-color: transparent !important;
+    }
+    .services-box07 {
+        padding: 23px !important;
+    }
+    /* About Page */
+    .about-area
+    {
+        padding-bottom: 35px;
+    }
+    .s-about-content p {
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .s-about-content .slider-btn
+    {
+        display: block;
+    }
+    .slider-btn a
+    {
+        width: 95% !important;
+        font-size: 18px;
+    }
+    /*معرض الصور */
+   #work
+    {
+        padding-top: 0 !important;
+    }
+    .my-masonry .button-group button.active
+    {
+        font-weight: bold !important;
+        padding-bottom: 13px !important;
+    }
+    .top-header h1 {
+        font-weight: bold;
+        color: #de1e26;
+        font-size: 32px;
+        margin: 0;
+        /* padding: 12px; */
+    }
+    .works_page h1
+    {
+        margin-bottom: 0 !important;
+    }
+}
+

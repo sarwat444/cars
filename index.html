@@ -30,7 +30,6 @@
     <body>
         <!-- header -->
         <header class="header-area header-three">
-
 			  <div id="header-sticky" class="menu-area">
                 <div class="container">
                     <div class="second-menu">
@@ -45,7 +44,7 @@
                                 <div class="main-menu text-center text-xl-right">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li><a href="about.html"> الرئيسية </a></li>
+                                            <li><a href="index.html" class="active-nav"> الرئيسية </a></li>
                                             <li class="has-sub">
                                                 <a>من نحن</a>
                                                 <ul>
@@ -263,67 +262,50 @@
                     </div>
                 </div>
             </section>
-            <!-- service-details2-area-end -->
-            
-
-                <!-- service-details2-area -->
-            <section id="service-details2" class="pt-50 pb-105 p-relative" >
+            <section id="service-details2" class="pt-50 pb-105 p-relative">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12">
                             <div class="section-title center-align mb-50 text-center">
-                                <h2>
-                                    خدماتنا
-                                </h2>
+                                <h2>خدماتنا</h2>
                             </div>
-                           
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-12">
                             <div class="about-content s-about-content">
-                                <ul class="sr-tw-ul ">
-                                    <li class="active">
+                                <ul class="sr-tw-ul">
+                                    <li class="active" data-title="العازل الحراري" data-subtitle="برد على نفسك وإحمي سيارتك" data-description="افلام العازل الحراري تعزل الإشعة تحت الحمراء والإشعة الفوق بنفسجية بنسبة تصل إلى 99.9%" data-image="img/services/1.png" data-bg-image="img/services/1.png">
                                         <div class="text">
-                                            <h4> العازل الحراري</h4>
+                                            <h4>العازل الحراري</h4>
                                         </div>
                                     </li>
-
-                                    <li class="protect_paint">
+                                    <li class="protect_paint" data-title="أفلام حماية الطلاء" data-subtitle="حافظ على مظهر سيارتك" data-description="أفلام الحماية للطلاء تحمي السيارة من الخدوش والأضرار اليومية." data-image="img/services/2.jpg" data-bg-image="img/services/2.jpg">
                                         <div class="text">
-                                            <h4>أفلام حماية الطلاء </h4>
+                                            <h4>أفلام حماية الطلاء</h4>
                                         </div>
-
                                     </li>
-                                    <li class="nano_paint">
+                                    <li class="nano_paint" data-title="النانوسيراميك" data-subtitle="لمعان وحماية تدوم طويلاً" data-description="النانوسيراميك يحافظ على لمعان السيارة ويمنحها حماية قوية." data-image="img/services/3.jpg" data-bg-image="img/services/3.jpg">
                                         <div class="text pt-10">
-                                            <h4>النانوسيراميك </h4>
+                                            <h4>النانوسيراميك</h4>
                                         </div>
                                     </li>
-
-                                    <li>
+                                    <li data-title="التلميع" data-subtitle="جدد مظهر سيارتك" data-description="تلميع السيارة يعيد بريقها ويزيل الخدوش السطحية." data-image="img/services/3.jpg" data-bg-image="img/services/3.jpg">
                                         <div class="text">
-                                            <h4>التلميع </h4>
+                                            <h4>التلميع</h4>
                                         </div>
-
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="col-lg-5 col-md-12 col-sm-12 text-center d-none d-lg-block">
+                        <div class="col-lg-5 col-md-12 col-sm-12 text-center">
                             <div class="sd-img">
                                 <div class="services-details">
-                                     <h2 class="text-center">العازل الحراري</h2>
-                                     <h4>برد على نفسك وإحمي سيارتك</h4>
-                                     <p>افلام العازل الحراري تعزل الإشعة تحت الحمراء والإشعة الفوق بنفسجية بنسبة تصل إلى 99.9%</p>
-                                    <a href="contact.html" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s" tabindex="0" style="animation-delay: 0.4s;">
-                                         أحجز الأن
-                                    </a>
+                                    <h2 class="service-title text-center">العازل الحراري</h2>
+                                    <h4 class="service-subtitle">برد على نفسك وإحمي سيارتك</h4>
+                                    <p class="service-description">افلام العازل الحراري تعزل الإشعة تحت الحمراء والإشعة الفوق بنفسجية بنسبة تصل إلى 99.9%</p>
+                                    <a href="contact.html" class="btn ss-btn mr-15" tabindex="0">أحجز الأن</a>
                                 </div>
                             </div>
-
                         </div>
-
-                     
                     </div>
                 </div>
             </section>
@@ -397,5 +379,32 @@
         <script src="assets/js/parallax-scroll.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".sr-tw-ul li").on("click", function() {
+                    // Remove 'active' class from all <li> elements and add to the clicked one
+                    $(".sr-tw-ul li").removeClass("active");
+                    $(this).addClass("active");
+
+                    // Get data attributes of the clicked item
+                    var title = $(this).data("title");
+                    var subtitle = $(this).data("subtitle");
+                    var description = $(this).data("description");
+                    var image = $(this).data("image");
+                    var bgImage = $(this).data("bg-image");
+
+                    // Update content and background image in .services-details with fade effect
+                    $(".services-details").fadeOut(300, function() {
+                        $(".service-title").text(title);
+                        $(".service-subtitle").text(subtitle);
+                        $(".service-description").text(description);
+                        $(".sd-img").css("background-image", "url('" + bgImage + "')");
+
+                        // Fade in after content and background image update
+                        $(this).fadeIn(300);
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

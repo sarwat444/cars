@@ -34,10 +34,11 @@ a.meanmenu-reveal {
 	margin-top: -42px;
 	padding: 8px 9px;
 	position: absolute;
-	right: 0;
+	left: 0;
 	text-decoration: none;
 	top: 0;
 	width: 22px;
+	right: auto !important;
 }
 .mean-container a.meanmenu-reveal span {
   background: #002e5b none repeat scroll 0 0;
