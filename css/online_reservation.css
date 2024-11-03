@@ -71,6 +71,18 @@ label.radio-card .check-icon:before {
     transition: 200ms linear;
     opacity: 0;
 }
+/* Reservation Box*/
+.reservation_box .to-head p
+{
+    margin-top: 29px;
+    color: #fff;
+}
+.contact-field input
+{
+    border-radius: 0 !important;
+    padding: 7px !important;
+}
+
 label.radio-card input[type=radio] {
     appearance: none;
     -webkit-appearance: none;
@@ -4159,15 +4171,16 @@ html[dir="rtl"] .s-day-offer-banner .right {
 }
 
 .payment-button {
-    width: 30%;
-    padding: 20px 20px;
+    
+    width: 279px;
+    padding: 10px 20px;
     transition: all 0.3s ease-in-out;
-    background-color:#E81C2E;
+    background-color: #E81C2E;
     font-weight: 700;
     cursor: pointer !important;
     text-align: right;
     padding-right: 25px;
-    font-size: 20px;
+    font-size: 17px;
     border: none;
     border-radius: 10px;
     align-items: center;
@@ -5486,4 +5499,19 @@ html[dir=rtl] #chose_branch_section #select_city {
 
 .breadcrumb-container span {
     color: #ddd; /* Adjust color as needed */
+}
+/* Custom Design*/
+.contact-field label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 7px;
+    cursor: unset;
+}
+.btn-submit_booking
+{
+    text-align: center;
+    color: #fff;
 }
