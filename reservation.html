@@ -322,8 +322,6 @@
                             <div class="col-md-4">
                                 <div class="card hover_card_main" style="background-color:white; cursor: pointer; position: relative; ">
                                     <div class="service-image">
-                                        <img src="https://dettaglioauto.sa/img/only_circle.svg" class="circile_top_image" style="">
-                                        <img src="https://dettaglioauto.sa/img/circle_with_plus_sign.svg" class="circile_top_image_with_plus" style="display: none;">
                                         <img src="img/cars/1.jpg" class="card-img-top shadow">
 
                                         <div class="time_duration_main">
@@ -373,8 +371,6 @@
                                     </div>
 
                                     <div class="popup_service_details overlay_popup" style="background-image: url(img/cars/3.png); padding-top: 20px; padding-bottom: 20px; width: 100%; height: 100%; background-position: center center; top: 0px; position: absolute; background-size: cover; color: white;">
-
-                                        <img src="https://dettaglioauto.sa/img/errow_down_popup.svg" class="circile_top_image_popup">
                                         <div style="text-align:center; margin-top:40px; margin-bottom:10px; position: relative;">
                                             <div class="service-name">
                                                 <h4 class="name" style="display:inline">تلميع ساطع</h4>
@@ -397,13 +393,6 @@
                                                 <img src="https://dettaglioauto.sa/img/check.svg" style="width: 13px;">
                                                 <p style="padding-left: 5px; padding-right: 5px; display: inline; font-size: 15px !important;  font-weight: 600;"> إزالة خدوش (تلميع خشن)</p>
                                             </div>
-                                            </div>
-                                        </div>
-                                        <div style="color:white; position: relative;">
-                                            <div class="tabby_tamara_main">
-                                                <div class="instalment_4">قسمها على 4 دفعات</div>
-                                                <img src="https://dettaglioauto.sa/img/tabby-logo.png" style="padding:0px 5px 0px 5px">
-                                                <img src="https://dettaglioauto.sa/img/tamara-logo.png" style="padding:0px 5px 0px 5px">
                                             </div>
                                         </div>
                                     </div>
@@ -438,9 +427,40 @@
 
             </div>
         </div>
+        <div class="row">
+            <div class="to-head">
+                <h3 class="choose_car_text text-center">بيانات الحجز</h3>
+                <p class="text-center">من فضلك قم بتعبئة معلوماتك لتأكيد الحجز</p>
+            </div>
+            <form action="mail.php" method="post" class="contact-form mt-30">
+                <div class="row mb-2">
+                    <div class="col-lg-6">
+                        <div class="contact-field p-relative c-name mb-20">
+                            <input type="text" id="first_name" name="first_name" placeholder="الاسم الأول " required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="contact-field p-relative c-subject mb-20">
+                            <input type="text" id="last_name" name="last_name" placeholder="الأسم الأخير" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-field p-relative c-name mb-20">
+                            <input type="text" id="email" name="email" placeholder="البريد الألكترونى" required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="contact-field p-relative c-subject mb-20">
+                            <input type="text" id="mo   " name="last_name" placeholder="رقم الجوال " required>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
-
-
 </main>
 <!-- main-area-end -->
 
@@ -526,21 +546,21 @@
         });
 
         $(document).ready(function () {
-            var originalText = $('.more_information').text(); // Store the original text
-            alert(originalText);
+            $('.more_information').each(function () {
+                $(this).data('originalText', $(this).text());
+            });
 
             $('.more_information').on('click', function () {
-                // Toggle the popup visibility
                 $('.popup_service_details').fadeToggle();
 
-                // Change the button text based on the visibility of the popup
                 if ($('.popup_service_details').is(':visible')) {
-                    $(this).text('إغلاق'); // Change to "Close" when the popup is visible
+                    $(this).text('إغلاق');
                 } else {
-                    $('.more_information').text(originalText); // Revert back to original text
+                    $(this).text($(this).data('originalText'));
                 }
             });
         });
+
 
 
     });
