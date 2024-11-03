@@ -6,15 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="c7d041b9-e3d7-4f83-b4eb-1ed41fb3c429" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/meanmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/meanmenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ajax-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/element-in-view-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/element-in-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/imagesloaded.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.counterup.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.meanmenu.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollUp.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js_isotope.pkgd.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/parallax-scroll-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/parallax-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/parallax.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/paroller-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/paroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/popper.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/slick.min-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/wow.min-1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/online_reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/online_reservation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +86,7 @@
       <workItem from="1730229439732" duration="121000" />
       <workItem from="1730270783629" duration="14648000" />
       <workItem from="1730365280085" duration="6487000" />
-      <workItem from="1730625339420" duration="12636000" />
+      <workItem from="1730625339420" duration="17045000" />
     </task>
     <servers />
   </component>

@@ -235,11 +235,7 @@ label.radio-card .card-content-wrapper
     color: #fff;
 }
 /* Background content container */
-.nav-pills .nav-item
-{
-    max-width: 19%;
-    margin-right: 5px;
-}
+
 .nav-pills .nav-item span {
     font-size: 20px;
     margin-top: 21px;

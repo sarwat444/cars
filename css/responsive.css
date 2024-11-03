@@ -2550,5 +2550,14 @@ margin: 0;
     {
         margin-bottom: 0 !important;
     }
+    .nav-pills .nav-item
+    {
+        margin-bottom: 10px;
+    }
+    .nav-pills .nav-item span{
+        font-size: 17px !important;
+    }
+
+
 }
 
